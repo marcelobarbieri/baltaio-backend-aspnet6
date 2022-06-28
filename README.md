@@ -15,6 +15,7 @@
     <li><a href="#verbos">Entendendo os Verbos HTTP</a></li>
     <li><a href="#status-code">HTTP Status Code</a></li>
     <li><a href="#como-funciona">Como funciona um App ASP.NET</a></li>
+    <li><a href="#mapeando-req">Mapeando uma requisição</a></li>
 </ul>
 
 </details>
@@ -272,6 +273,14 @@ dotnet new gitignore
 <!-- #region Como funciona um App ASP.NET -->
 
 <details id="como-funciona"><summary>Como funciona um App ASP.NET</summary>
+
+<br/>
+
+<!--#endregion -->
+
+<!-- #region Mapeando uma requisição -->
+
+<details id="mapeando-req"><summary>Mapeando uma requisição</summary>
 
 <br/>
 
