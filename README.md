@@ -14,6 +14,7 @@
     <li><a href="#protocolos">Protocolo HTTP, DNS e Fundamentos</a></li>
     <li><a href="#verbos">Entendendo os Verbos HTTP</a></li>
     <li><a href="#status-code">HTTP Status Code</a></li>
+    <li><a href="#como-funciona">Como funciona um App ASP.NET</a></li>
 </ul>
 
 </details>
@@ -265,6 +266,15 @@ dotnet new gitignore
         </ol>
     </li>
 </ol>
+
+<!--#endregion -->
+
+<!-- #region Como funciona um App ASP.NET -->
+
+<details id="como-funciona"><summary>Como funciona um App ASP.NET</summary>
+
+<br/>
+
 <!--#endregion -->
 
 <!--#endregion -->
