@@ -6,22 +6,39 @@
 
 <h2>Sumário</h2>
 
+<!--#region Introdução e Minimal APIs -->
+
 <details><summary>Introdução e Minimal APIs</summary>
 
 <ul>
-    <li><a href="#introducao">Introdução</a></li>
-    <li><a href="#primeira-api">Rodando sua primeira API</a></li>
-    <li><a href="#protocolos">Protocolo HTTP, DNS e Fundamentos</a></li>
-    <li><a href="#verbos">Entendendo os Verbos HTTP</a></li>
-    <li><a href="#status-code">HTTP Status Code</a></li>
-    <li><a href="#como-funciona">Como funciona um App ASP.NET</a></li>
-    <li><a href="#mapeando-req">Mapeando uma requisição</a></li>
-    <li><a href="#funcoes-anonimas">Funções Anônimas</a></li>
-    <li><a href="#parametros">Parâmetros</a></li>
-    <li><a href="#serializacao-json">Serialização JSON</a></li>
+    <li><a href="#int-introducao">Introdução</a></li>
+    <li><a href="#int-primeira-api">Rodando sua primeira API</a></li>
+    <li><a href="#int-protocolos">Protocolo HTTP, DNS e Fundamentos</a></li>
+    <li><a href="#int-verbos">Entendendo os Verbos HTTP</a></li>
+    <li><a href="#int-status-code">HTTP Status Code</a></li>
+    <li><a href="#int-como-funciona">Como funciona um App ASP.NET</a></li>
+    <li><a href="#int-mapeando-req">Mapeando uma requisição</a></li>
+    <li><a href="#int-funcoes-anonimas">Funções Anônimas</a></li>
+    <li><a href="#int-parametros">Parâmetros</a></li>
+    <li><a href="#int-serializacao-json">Serialização JSON</a></li>
+    <li><a href="#int-conclusao">Conclusão</a></li>
 </ul>
 
 </details>
+
+<!--#endregion -->
+
+<!--#region MVC -->
+
+<details><summary>MVC</summary>
+
+<ul>
+    <li><a href="#mvc-iniciando">Iniciando o projeto</a></li>
+</ul>
+
+</details>
+
+<!--#endregion -->
 
 <!--#endregion -->
 
@@ -31,7 +48,7 @@
 
 <!--#region Introdução  -->
 
-<details id="introducao"><summary>Introdução</summary>
+<details id="int-introducao"><summary>Introdução</summary>
 
 <br/>
 
@@ -46,7 +63,7 @@ dotnet version
 
 <!--#region Rodando sua primeira API  -->
 
-<details id="primeira-api"><summary>Rodando sua primeira API</summary>
+<details id="int-primeira-api"><summary>Rodando sua primeira API</summary>
 
 <br/>
 
@@ -97,7 +114,7 @@ dotnet new gitignore
 
 <!-- #region Protocolo HTTP, DNS e Fundamentos -->
 
-<details id="protocolos"><summary>Protocolo HTTP, DNS e Fundamentos</summary>
+<details id="int-protocolos"><summary>Protocolo HTTP, DNS e Fundamentos</summary>
 
 <br/>
 
@@ -125,7 +142,7 @@ dotnet new gitignore
 
 <!-- #region Entendendo os Verbos HTTP -->
 
-<details id="verbos"><summary>Entendendo os Verbos HTTP</summary>
+<details id="int-verbos"><summary>Entendendo os Verbos HTTP</summary>
 
 <br/>
 
@@ -170,7 +187,7 @@ dotnet new gitignore
 
 <!-- #region HTTP Status Code -->
 
-<details id="status-code"><summary>HTTP Status Code</summary>
+<details id="int-status-code"><summary>HTTP Status Code</summary>
 
 <br/>
 
@@ -277,7 +294,7 @@ dotnet new gitignore
 
 <!-- #region Como funciona um App ASP.NET -->
 
-<details id="como-funciona"><summary>Como funciona um App ASP.NET</summary>
+<details id="int-como-funciona"><summary>Como funciona um App ASP.NET</summary>
 
 <br/>
 
@@ -287,7 +304,7 @@ dotnet new gitignore
 
 <!-- #region Mapeando uma requisição -->
 
-<details id="mapeando-req"><summary>Mapeando uma requisição</summary>
+<details id="int-mapeando-req"><summary>Mapeando uma requisição</summary>
 
 <br/>
 
@@ -297,7 +314,7 @@ dotnet new gitignore
 
 <!-- #region Funções Anônimas -->
 
-<details id="funcoes-anonimas"><summary>Funções Anônimas</summary>
+<details id="int-funcoes-anonimas"><summary>Funções Anônimas</summary>
 
 <br/>
 
@@ -319,7 +336,7 @@ app.MapGet("/", () =>
 
 <!-- #region Parâmetros -->
 
-<details id="parametros"><summary>Parâmetros</summary>
+<details id="int-parametros"><summary>Parâmetros</summary>
 
 <br/>
 
@@ -340,7 +357,7 @@ GET https://localhost:7249/name/Marcelo <br/>
 
 <!-- #region Serialização JSON -->
 
-<details id="serializacao-json"><summary>Serialização JSON</summary>
+<details id="int-serializacao-json"><summary>Serialização JSON</summary>
 
 <br/>
 
@@ -367,6 +384,40 @@ Response:
 
 - JSON > C# (Serialização)
 - C# > JSON (Deserialização)
+
+</details>
+
+<!--#endregion -->
+
+<!-- #region Conclusão -->
+
+<details id="int-conclusao"><summary>Conclusão</summary>
+
+<br/>
+
+</details>
+
+<!--#endregion -->
+
+<!--#endregion -->
+
+<!--#region MVC -->
+
+<h2 id="mvc">MVC</h2>
+
+<!--#region Iniciando o projeto  -->
+
+<details id="mvc-iniciando"><summary>Iniciando o projeto</summary>
+
+<br/>
+
+```ps
+dotnet --version
+6.0.301
+
+dotnet new web -o Todo
+dotnet new gitignore
+```
 
 </details>
 
