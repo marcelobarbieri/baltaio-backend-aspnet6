@@ -18,6 +18,7 @@
     <li><a href="#mapeando-req">Mapeando uma requisição</a></li>
     <li><a href="#funcoes-anonimas">Funções Anônimas</a></li>
     <li><a href="#parametros">Parâmetros</a></li>
+    <li><a href="#serializacao-json">Serialização JSON</a></li>
 </ul>
 
 </details>
@@ -332,6 +333,40 @@ GET https://localhost:7249/Marcelo <br/>
 
 GET https://localhost:7249/name/Marcelo <br/>
 "Hello Marcelo"
+
+</details>
+
+<!--#endregion -->
+
+<!-- #region Serialização JSON -->
+
+<details id="serializacao-json"><summary>Serialização JSON</summary>
+
+<br/>
+
+<p>Postman</p>
+
+POST https://localhost:7249/ <br/>
+Body (raw JSON):
+
+```json
+{
+  "id": 1,
+  "username": "marcelo"
+}
+```
+
+Response:
+
+```json
+{
+  "id": 1,
+  "username": "marcelo"
+}
+```
+
+- JSON > C# (Serialização)
+- C# > JSON (Deserialização)
 
 </details>
 
