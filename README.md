@@ -17,6 +17,7 @@
     <li><a href="#como-funciona">Como funciona um App ASP.NET</a></li>
     <li><a href="#mapeando-req">Mapeando uma requisição</a></li>
     <li><a href="#funcoes-anonimas">Funções Anônimas</a></li>
+    <li><a href="#parametros">Parâmetros</a></li>
 </ul>
 
 </details>
@@ -310,6 +311,27 @@ app.MapGet("/", () =>
     }
 );
 ```
+
+</details>
+
+<!--#endregion -->
+
+<!-- #region Parâmetros -->
+
+<details id="parametros"><summary>Parâmetros</summary>
+
+<br/>
+
+<p>Postman</p>
+
+GET https://localhost:7249/ <br/>
+"Hello World!"
+
+GET https://localhost:7249/Marcelo <br/>
+"Hello Marcelo"
+
+GET https://localhost:7249/name/Marcelo <br/>
+"Hello Marcelo"
 
 </details>
 
