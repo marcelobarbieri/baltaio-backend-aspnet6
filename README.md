@@ -34,6 +34,7 @@
 
 <ul>
     <li><a href="#mvc-iniciando">Iniciando o projeto</a></li>
+    <li><a href="#mvc-ef">Configurando o EF</a></li>
 </ul>
 
 </details>
@@ -417,6 +418,21 @@ dotnet --version
 
 dotnet new web -o Todo
 dotnet new gitignore
+```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Configurando o EF  -->
+
+<details id="mvc-ef"><summary>Configurando o EF</summary>
+
+<br/>
+
+```ps
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
 
 </details>
