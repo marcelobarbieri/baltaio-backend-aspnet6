@@ -16,6 +16,7 @@
     <li><a href="#status-code">HTTP Status Code</a></li>
     <li><a href="#como-funciona">Como funciona um App ASP.NET</a></li>
     <li><a href="#mapeando-req">Mapeando uma requisição</a></li>
+    <li><a href="#funcoes-anonimas">Funções Anônimas</a></li>
 </ul>
 
 </details>
@@ -268,6 +269,8 @@ dotnet new gitignore
     </li>
 </ol>
 
+</details>
+
 <!--#endregion -->
 
 <!-- #region Como funciona um App ASP.NET -->
@@ -276,6 +279,8 @@ dotnet new gitignore
 
 <br/>
 
+</details>
+
 <!--#endregion -->
 
 <!-- #region Mapeando uma requisição -->
@@ -283,6 +288,30 @@ dotnet new gitignore
 <details id="mapeando-req"><summary>Mapeando uma requisição</summary>
 
 <br/>
+
+</details>
+
+<!--#endregion -->
+
+<!-- #region Funções Anônimas -->
+
+<details id="funcoes-anonimas"><summary>Funções Anônimas</summary>
+
+<br/>
+
+```cs
+app.MapGet("/", () => "Hello World!");
+```
+
+```cs
+app.MapGet("/", () =>
+    {
+        return "Hello World!";
+    }
+);
+```
+
+</details>
 
 <!--#endregion -->
 
