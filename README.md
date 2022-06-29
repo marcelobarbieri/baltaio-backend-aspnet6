@@ -36,6 +36,7 @@
     <li><a href="#mvc-iniciando">Iniciando o projeto</a></li>
     <li><a href="#mvc-ef">Configurando o EF</a></li>
     <li><a href="#mvc-bdados">Gerando o banco de dados</a></li>
+    <li><a href="#mvc-padrao">Entendendo o padrão MVC</a></li>
 </ul>
 
 </details>
@@ -442,7 +443,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 
 <!--#region Gerando o banco de dados  -->
 
-<details id="mvc-ef"><summary>Gerando o banco de dados</summary>
+<details id="mvc-bdados"><summary>Gerando o banco de dados</summary>
 
 <br/>
 
@@ -450,6 +451,27 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add CreateDatabase
 dotnet ef database update
 ```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Entendendo o padrão MVC  -->
+
+<details id="mvc-padrao"><summary>Entendendo o padrão MVC</summary>
+
+<br/>
+
+MVC:
+
+<ul>
+    <li>Model</li>
+    <li>View</li>
+    <li>Controller</li>
+</ul>
+
+<p>MC: utilizados em projetos de API</p>
+<p>M <-> C <-> V</p>
 
 </details>
 
