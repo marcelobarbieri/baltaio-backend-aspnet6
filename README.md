@@ -37,6 +37,7 @@
     <li><a href="#mvc-ef">Configurando o EF</a></li>
     <li><a href="#mvc-bdados">Gerando o banco de dados</a></li>
     <li><a href="#mvc-padrao">Entendendo o padrão MVC</a></li>
+    <li><a href="#mvc-controllers">Entendendo os Controllers</a></li>
 </ul>
 
 </details>
@@ -472,6 +473,17 @@ MVC:
 
 <p>MC: utilizados em projetos de API</p>
 <p>M <-> C <-> V</p>
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Entendendo os Controllers -->
+
+<details id="mvc-controllers"><summary>Entendendo os Controllers</summary>
+
+<br/>
+<p>Os métodos dentro de um controlador são comumente chamados de <b>Action</b></p>
 
 </details>
 
