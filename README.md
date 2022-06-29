@@ -35,6 +35,7 @@
 <ul>
     <li><a href="#mvc-iniciando">Iniciando o projeto</a></li>
     <li><a href="#mvc-ef">Configurando o EF</a></li>
+    <li><a href="#mvc-bdados">Gerando o banco de dados</a></li>
 </ul>
 
 </details>
@@ -433,6 +434,21 @@ dotnet new gitignore
 ```ps
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Gerando o banco de dados  -->
+
+<details id="mvc-ef"><summary>Gerando o banco de dados</summary>
+
+<br/>
+
+```ps
+dotnet ef migrations add CreateDatabase
+dotnet ef database update
 ```
 
 </details>
