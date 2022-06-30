@@ -41,6 +41,7 @@
     <li><a href="#mvc-rotas">Rotas e Controllers</a></li>
     <li><a href="#mvc-suporte">Adicionando suporte a Controllers</a></li>
     <li><a href="#mvc-ler">Lendo itens do banco de dados</a></li>
+    <li><a href="#mvc-criar">Criando um registro</a></li>
 </ul>
 
 </details>
@@ -522,6 +523,63 @@ MVC:
 
 GET https://localhost:7033
 Response Body: []
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Criando um registro -->
+
+<details id="mvc-criar"><summary>Criando um registro</summary>
+
+<br/>
+
+<p>O ASP.NET já converte de JSON (serialização) e para JSON (desserialização)</p>
+
+<p>Postman</p>
+
+#
+
+POST https://localhost:7033
+
+Body:
+
+```json
+{
+  "id": 1,
+  "title": "Ir ao supermercado",
+  "done": true,
+  "createdAt": "2022-06-30T07:47:00"
+}
+```
+
+Response:
+
+```json
+{
+  "id": 1,
+  "title": "Ir ao supermercado",
+  "done": true,
+  "createdAt": "2022-06-30T07:47:00"
+}
+```
+
+#
+
+GET https://localhost:7033
+
+Response:
+
+```json
+[
+  {
+    "id": 1,
+    "title": "Ir ao supermercado",
+    "done": true,
+    "createdAt": "2022-06-30T07:47:00"
+  }
+]
+```
 
 </details>
 
