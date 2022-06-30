@@ -40,6 +40,7 @@
     <li><a href="#mvc-controllers">Entendendo os Controllers</a></li>
     <li><a href="#mvc-rotas">Rotas e Controllers</a></li>
     <li><a href="#mvc-suporte">Adicionando suporte a Controllers</a></li>
+    <li><a href="#mvc-ler">Lendo itens do banco de dados</a></li>
 </ul>
 
 </details>
@@ -506,6 +507,21 @@ MVC:
 <details id="mvc-suporte"><summary>Adicionando suporte a Controllers</summary>
 
 <br/>
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Lendo itens do banco de dados -->
+
+<details id="mvc-ler"><summary>Lendo itens do banco de dados</summary>
+
+<br/>
+
+<p>Postman</p>
+
+GET https://localhost:7033
+Response Body: []
 
 </details>
 
