@@ -39,6 +39,7 @@
     <li><a href="#mvc-padrao">Entendendo o padrão MVC</a></li>
     <li><a href="#mvc-controllers">Entendendo os Controllers</a></li>
     <li><a href="#mvc-rotas">Rotas e Controllers</a></li>
+    <li><a href="#mvc-suporte">Adicionando suporte a Controllers</a></li>
 </ul>
 
 </details>
@@ -493,6 +494,16 @@ MVC:
 <!--#region Rotas e Controllers -->
 
 <details id="mvc-rotas"><summary>Rotas e Controllers</summary>
+
+<br/>
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Adicionando suporte a Controllers -->
+
+<details id="mvc-suporte"><summary>Adicionando suporte a Controllers</summary>
 
 <br/>
 
