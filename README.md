@@ -38,6 +38,7 @@
     <li><a href="#mvc-bdados">Gerando o banco de dados</a></li>
     <li><a href="#mvc-padrao">Entendendo o padrão MVC</a></li>
     <li><a href="#mvc-controllers">Entendendo os Controllers</a></li>
+    <li><a href="#mvc-rotas">Rotas e Controllers</a></li>
 </ul>
 
 </details>
@@ -484,6 +485,16 @@ MVC:
 
 <br/>
 <p>Os métodos dentro de um controlador são comumente chamados de <b>Action</b></p>
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Rotas e Controllers -->
+
+<details id="mvc-rotas"><summary>Rotas e Controllers</summary>
+
+<br/>
 
 </details>
 
