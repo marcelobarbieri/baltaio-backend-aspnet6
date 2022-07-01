@@ -16,7 +16,8 @@ app.MapGet("/name/{nome}", (string nome) =>
     return Results.Ok($"Hello {nome}");
 });
 
-app.MapPost("/", (User user) => {
+app.MapPost("/", (User user) =>
+{
     return Results.Ok(user);
 });
 

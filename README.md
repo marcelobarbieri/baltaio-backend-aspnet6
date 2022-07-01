@@ -44,6 +44,7 @@
     <li><a href="#mvc-criar">Criando um registro</a></li>
     <li><a href="#mvc-atualizar-excluir">Atualizando e excluindo um registro</a></li>
     <li><a href="#mvc-teste">Testando a API</a></li>
+    <li><a href="#mvc-melhorar">Melhorando a API</a></li>
 </ul>
 
 </details>
@@ -675,10 +676,20 @@ Resposta: 200 OK
   "done": false,
   "createdAt": "2022-06-30T07:47:00"
 }
+```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Melhorando a API -->
+
+<details id="mvc-melhorar"><summary>Melhorando a API</summary>
+
+<br/>
 
 </details>
 
 <!--#endregion -->
 
 <!--#endregion -->
-```
