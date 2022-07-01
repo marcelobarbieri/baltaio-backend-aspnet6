@@ -57,6 +57,8 @@
 
 <ul>
     <li><a href="#crud-vs">Visual Studio, Visual Studio Code, Rider</a></li>
+    <li><a href="#crud-projeto">Criando o projeto</a></li>
+    <li><a href="#crud-ef">Adicionando suporte ao Entity Framework</a></li>
 </ul>
 
 </details>
@@ -757,6 +759,24 @@ Extensão recomendada para o VS:
 ```ps
 dotnet new web -o Blog
 dotnet new gitignore
+```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Adicionando suporte ao Entity Framework  -->
+
+<details id="crud-ef"><summary>Adicionando suporte ao Entity Framework</summary>
+
+<br/>
+
+```ps
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+dotnet clean
+dotnet build
 ```
 
 </details>
