@@ -42,6 +42,7 @@
     <li><a href="#mvc-suporte">Adicionando suporte a Controllers</a></li>
     <li><a href="#mvc-ler">Lendo itens do banco de dados</a></li>
     <li><a href="#mvc-criar">Criando um registro</a></li>
+    <li><a href="#mvc-atualizar-excluir">Atualizando e excluindo um registro</a></li>
 </ul>
 
 </details>
@@ -580,6 +581,51 @@ Response:
   }
 ]
 ```
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Atualizando e excluindo um registro -->
+
+<details id="mvc-atualizar-excluir"><summary>Atualizando e excluindo um registro</summary>
+
+<br/>
+
+```ps
+dotnet run
+
+Compilando...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7033
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5045
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Dev\Balta.io\.NET\ASP.NET6\Todo\
+```
+
+<p>Postman</p>
+
+GET https://localhost:7033/1
+
+Resposta: 200 OK
+
+```json
+{
+  "id": 1,
+  "title": "Ir ao supermercado",
+  "done": true,
+  "createdAt": "2022-06-30T07:47:00"
+}
+```
+
+GET https://localhost:7033/4
+
+Resposta: 204 No Content
 
 </details>
 
