@@ -714,6 +714,8 @@ Resposta: 200 OK
 
 <h2 id="crud">CRUD e Entity Framework</h2>
 
+> Projeto: Blog
+
 <!--#region Visual Studio, Visual Studio Code, Rider  -->
 
 <details id="crud-vs"><summary>Visual Studio, Visual Studio Code, Rider</summary>
@@ -741,6 +743,21 @@ IDE:
 Extensão recomendada para o VS:
 
 - ReSharper
+
+</details>
+
+<!--#endregion -->
+
+<!--#region Criando o projeto  -->
+
+<details id="crud-projeto"><summary>Criando o projeto</summary>
+
+<br/>
+
+```ps
+dotnet new web -o Blog
+dotnet new gitignore
+```
 
 </details>
 
