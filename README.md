@@ -43,6 +43,7 @@
     <li><a href="#mvc-ler">Lendo itens do banco de dados</a></li>
     <li><a href="#mvc-criar">Criando um registro</a></li>
     <li><a href="#mvc-atualizar-excluir">Atualizando e excluindo um registro</a></li>
+    <li><a href="#mvc-teste">Testando a API</a></li>
 </ul>
 
 </details>
@@ -631,4 +632,53 @@ Resposta: 204 No Content
 
 <!--#endregion -->
 
+<!--#region Testando a API -->
+
+<details id="mvc-teste"><summary>Testando a API</summary>
+
+<br/>
+
+<p>Postman</p>
+
+PUT https://localhost:7033/1
+
+Body:
+
+```json
+{
+  "title": "Ir a academia",
+  "done": false
+}
+```
+
+Resposta: 200 OK
+
+```json
+{
+  "id": 1,
+  "title": "Ir a academia",
+  "done": false,
+  "createdAt": "2022-06-30T07:47:00"
+}
+```
+
+#
+
+DELETE https://localhost:7033/1
+
+Resposta: 200 OK
+
+```json
+{
+  "id": 1,
+  "title": "Ir a academia",
+  "done": false,
+  "createdAt": "2022-06-30T07:47:00"
+}
+
+</details>
+
 <!--#endregion -->
+
+<!--#endregion -->
+```
