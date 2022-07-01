@@ -51,11 +51,25 @@
 
 <!--#endregion -->
 
+<!--#region CRUD e Entity Framework -->
+
+<details><summary>CRUD e Entity Framework</summary>
+
+<ul>
+    <li><a href="#crud-vs">Visual Studio, Visual Studio Code, Rider</a></li>
+</ul>
+
+</details>
+
+<!--#endregion -->
+
 <!--#endregion -->
 
 <!--#region Introdução e Minimal APIs -->
 
 <h2 id="introducao-minimal">Introdução e Minimal APIs</h2>
+
+> Projeto: MinhaApi
 
 <!--#region Introdução  -->
 
@@ -416,6 +430,8 @@ Response:
 
 <h2 id="mvc">MVC</h2>
 
+> Projeto: Todo
+
 <!--#region Iniciando o projeto  -->
 
 <details id="mvc-iniciando"><summary>Iniciando o projeto</summary>
@@ -687,6 +703,44 @@ Resposta: 200 OK
 <details id="mvc-melhorar"><summary>Melhorando a API</summary>
 
 <br/>
+
+</details>
+
+<!--#endregion -->
+
+<!--#endregion -->
+
+<!--#region CRUD e Entity Framework -->
+
+<h2 id="crud">CRUD e Entity Framework</h2>
+
+<!--#region Visual Studio, Visual Studio Code, Rider  -->
+
+<details id="crud-vs"><summary>Visual Studio, Visual Studio Code, Rider</summary>
+
+<br/>
+
+Editor de Código <i>VS</i> IDE
+
+Editor de Código:
+
+- Visual Studio Code (VSCode)
+
+IDE:
+
+- Visual Studio (VS)
+- Rider [https://jetbrains.com/pt-br/rider/](https://jetbrains.com/pt-br/rider/)
+
+|                                | VSCode | VS  | Rider |
+| :----------------------------- | :----: | :-: | :---: |
+| Intelisense                    |   x    |  x  |   x   |
+| Debug, Inspeção de memória etc |   -    |  +  |   +   |
+| Recurso de máquina             |   -    |  +  |   +   |
+| ReSharper                      |        |  x  |   x   |
+
+Extensão recomendada para o VS:
+
+- ReSharper
 
 </details>
 
